@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblia Book</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- =========================
+     🌸 HEADER
+========================= -->
+<header class="topbar">
+  <h1>📖 Biblia Book</h1>
+  <p>Tu compañera espiritual diaria</p>
+</header>
+
+<!-- =========================
+     📖 VERSÍCULO DEL DÍA
+========================= -->
+<section class="card">
+  <h2>✨ Versículo del día</h2>
+  <p id="verse">Cargando...</p>
+  <small id="reference"></small>
+</section>
+
+<!-- =========================
+     🧠 ESTADO EMOCIONAL
+========================= -->
+<section class="card">
+  <h2>💕 Estado emocional</h2>
+  <p id="emotion">Detectando...</p>
+  <button onclick="getEmotion()">Actualizar emoción</button>
+</section>
+
+<!-- =========================
+     📚 BIBLIA
+========================= -->
+<section class="card">
+  <h2>📚 Biblia</h2>
+
+  <select id="bookSelect"></select>
+
+  <button onclick="loadChapter()">Cargar capítulo</button>
+
+  <div id="chapter" class="text-box"></div>
+</section>
+
+<!-- =========================
+     🤖 IA BÍBLICA
+========================= -->
+<section class="card">
+  <h2>🤖 IA Bíblica</h2>
+
+  <textarea id="question" placeholder="Escribe tu pregunta..."></textarea>
+
+  <input id="emotionInput" placeholder="¿Cómo te sientes hoy?">
+
+  <button onclick="askAI()">Preguntar</button>
+
+  <div id="answer" class="text-box"></div>
+</section>
+
+<!-- =========================
+     📊 PROGRESO (BASE)
+========================= -->
+<section class="card">
+  <h2>📊 Progreso espiritual</h2>
+  <p>Días de lectura: 0</p>
+  <p>Capítulos leídos: 0</p>
+  <p>Oraciones: 0</p>
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
