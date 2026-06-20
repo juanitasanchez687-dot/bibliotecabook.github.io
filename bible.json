@@ -1,0 +1,67 @@
+{
+  "old_testament": {
+    "name": "Antiguo Testamento",
+    "books": [
+      {
+        "id": "genesis",
+        "name": "Génesis",
+        "chapters": 50,
+        "description": "La creación del mundo y los primeros patriarcas."
+      },
+      {
+        "id": "exodus",
+        "name": "Éxodo",
+        "chapters": 40,
+        "description": "La liberación de Israel de Egipto."
+      },
+      {
+        "id": "psalms",
+        "name": "Salmos",
+        "chapters": 150,
+        "description": "Cantos y oraciones de adoración."
+      },
+      {
+        "id": "proverbs",
+        "name": "Proverbios",
+        "chapters": 31,
+        "description": "Sabiduría para la vida diaria."
+      }
+    ]
+  },
+
+  "new_testament": {
+    "name": "Nuevo Testamento",
+    "books": [
+      {
+        "id": "matthew",
+        "name": "Mateo",
+        "chapters": 28,
+        "description": "Vida y enseñanzas de Jesús."
+      },
+      {
+        "id": "mark",
+        "name": "Marcos",
+        "chapters": 16,
+        "description": "El evangelio más corto sobre Jesús."
+      },
+      {
+        "id": "luke",
+        "name": "Lucas",
+        "chapters": 24,
+        "description": "Relato detallado de la vida de Jesús."
+      },
+      {
+        "id": "john",
+        "name": "Juan",
+        "chapters": 21,
+        "description": "Profundidad espiritual sobre Jesús."
+      },
+      {
+        "id": "acts",
+        "name": "Hechos",
+        "chapters": 28,
+        "description": "Historia de la iglesia primitiva."
+      }
+    ]
+  }
+}
